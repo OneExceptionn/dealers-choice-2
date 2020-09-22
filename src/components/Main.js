@@ -9,7 +9,6 @@ import Champion from './Champion'
 class Main extends React.Component {
     componentDidMount(){
         this.props.getChampions()
-        console.log(this.props)
     }
 
     render() {
