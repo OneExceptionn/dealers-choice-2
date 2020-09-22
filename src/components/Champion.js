@@ -18,7 +18,6 @@ class Champion extends React.Component {
                     <li>Region: {champion.region}</li>
                     <li>Lane: {champion.lane}</li>
                     <li>Damage Type: {champion.damageType}</li>
-                    <li>Name: {champion.name}</li>
                 </ul>
             </div>
         )        
